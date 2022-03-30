@@ -18,3 +18,4 @@ export default interface Room{
     },
     accessory: Array<Accessory>
 }
+

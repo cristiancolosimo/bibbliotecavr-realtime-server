@@ -10,10 +10,13 @@ export const PlayerVRSchema = new Schema<PlayerVR>({
 
 
 
-export const UserSchema =  new Schema<User>({
+const UserSchema =  new Schema<User>({
     user_id: { type: String, required: true },
     username: { type: String, required: true },
     password:{ type: String, required: true },
     
     avatar: String
 });
+
+
+export const UserModel = model<User>('User', UserSchema);

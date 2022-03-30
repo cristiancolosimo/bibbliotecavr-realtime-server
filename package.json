@@ -4,6 +4,8 @@
   "description": "npm init",
   "main": "index.ts",
   "scripts": {
+    "start": "ts-node index.ts",
+    "start-data": "startfiles.bat",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
